@@ -85,7 +85,7 @@ $.ajax({
 	success:function(data){
 		$(".background").css({'background':'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://unsplash.it/1920/1080/?random) no-repeat center center fixed','-webkit-background-size':'cover','-moz-background-size':'cover','-o-background-size':'cover','background-size':'cover'});
 		$.ajax({
-		    url: "https://random-quotes-api.herokuapp.com/",
+		    url: "https://ptdwwoy2xc.execute-api.us-east-1.amazonaws.com/prod/quotes/random",
 		    type: "GET",
 		    dataType: "json",
 		    success: function (data) {
@@ -104,7 +104,7 @@ $.ajax({
 setInterval(function(){
 	$(".background").css({'background':'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://unsplash.it/1920/1080/?random) no-repeat center center fixed','-webkit-background-size':'cover','-moz-background-size':'cover','-o-background-size':'cover','background-size':'cover'});
 		$.ajax({
-		    url: "https://random-quotes-api.herokuapp.com/",
+		    url: "https://ptdwwoy2xc.execute-api.us-east-1.amazonaws.com/prod/quotes/random",
 		    type: "GET",
 		    dataType: "json",
 		    success: function (data) {
